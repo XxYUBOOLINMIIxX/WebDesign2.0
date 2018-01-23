@@ -1,0 +1,30 @@
+body {
+	font-family: Eczar;
+	background-color: lightgrey;
+	text-align: center;
+	width: 1000px;
+	border: 10px dotted #0088dd;
+	padding: 35px;
+	margin: 10px auto 10px auto;
+}
+h1 {
+	width: 300px;
+	border: 10px solid #0088dd;
+	padding: 35px;
+	margin: 10px auto 10px auto;	
+}
+p {
+	width: 300px;
+	border: 10px solid #0088dd;
+	padding: 35px;
+	margin: 10px auto 10px auto;
+}
+a:link {
+	color: black;
+	text-decoration: underline;
+}
+a:visited {
+	color: deeppink;
+	text-decoration: none;
+}
+
