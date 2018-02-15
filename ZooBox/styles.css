@@ -1,0 +1,162 @@
+.body{
+	background-image: url("images/ZebraBackground.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: #333333;
+}
+.jumbotron{
+	background-image: url("images/zoobanner.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	text-align: right;
+	opacity: 0.9;
+	font-family: 'Shadows Into Light Two', cursive;
+	font-size: 60px;
+	margin: 0px;
+}
+.carousel-inner{
+	width: 1015px;
+	margin: auto;
+	margin-top: 30px;
+}
+h1.display-3{
+	font-size: 90px;
+}
+.card-deck{
+	margin-top: 40px;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-bottom: 50px;
+	font-family: 'Shadows Into Light Two', cursive;
+}
+.btn{
+	background-color: #000000;
+	border-width: 3px;
+	border-color: #333333;
+}
+.columns {
+    float: left;
+    width: 33.3%;
+    padding: 8px;
+    margin-bottom: 100px;
+}
+
+/* Style the list */
+.price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    margin-top: 20px;
+}
+
+/* Add shadows on hover */
+.price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+/* Pricing header */
+.price .header {
+    background-color: #111;
+    color: white;
+    font-size: 25px;
+}
+
+/* List items */
+.price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Grey list item */
+.price .grey {
+    background-color: #eee;
+    font-size: 20px;
+}
+
+/* The "Sign Up" button */
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+form{
+	border: 5px solid;
+	padding: 30px;
+	margin: 30px;
+}
+footer{
+	display: block;
+	float: center;
+	margin-left: 25px;
+	font-size: 10px;
+	text-align: center;
+}
+.aboutus{
+	background-color: #333333;
+	background-image: url("images/Australia.jpg");
+	background-size: fill;
+	background-repeat: repeat;
+}
+#aboutus{
+	background-color: rgba(255, 255, 255, 0.9);
+	padding: 30px;
+	font-family: 'Shadows Into Light Two', cursive;
+	text-align: center;
+}
+#info{
+	margin: 30px;
+}
+hr{
+	background-color: #ffffff;
+	margin: 0px;
+	border-width: 5px;
+}
+.recipe{
+	background-image: url("images/Australia.jpg");
+	background-size: cover;
+	background-repeat: repeat;
+	background-color: #333333;
+}
+#recipe{
+	background-color: rgba(51, 51, 51, 0.9);
+	color: #ffffff;
+	font-family: 'Shadows Into Light Two', cursive;
+	font-size: 20px;
+	padding-bottom: 75px;
+}
+#ingredients{
+	margin-left: 70px;
+	list-style-type: disc;
+}
+#directions{
+	margin-left: 70px;
+	margin-right: 70px;
+}
+#ingredients1{
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+#directions1{
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+#AlligatorDinner{
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	color: #ffffff;
+}
+#dinnertitle{
+	margin-bottom: 30px;
+	font-family: 'Shadows Into Light Two', cursive;
+}
