@@ -1,6 +1,6 @@
-*{
+body{
 	font-family: Arial, Verdana, sans-serif;
-	background-image: url("images/IceCreamCeption");
+	background-image: url("images/IceCreamBackground.jpg");
 }
 #content{
 	overflow: auto;
@@ -16,27 +16,31 @@ li{
 }
 .column1of3, .column2of3, .column3of3{
 	float: left;
+	background-color: #ffffff;
 }
 div.column1of3{
-	width: 300px;
+	width: 400px;
 	padding: 5px;
 	margin: 10px;
-	margin-left:250px;
-	border: 2px solid #0088dd;
+	margin-left:300px;
+	border: 5px solid #0088dd;
+	border-radius: 25px
 }
 div.column2of3{
-	width: 300px;
+	width: 400px;
 	padding: 5px;
 	margin: 10px;
-	border: 2px solid #0088dd;
+	border: 5px solid #0088dd;
+	border-radius: 25px
 }
 div.column3of3{
-	width: 300px;
+	width: 400px;
 	padding: 5px;
 	margin: 10px;
-	border: 2px solid #0088dd;
+	border: 5px solid #0088dd;
+	border-radius: 25px
 }
-h1{
+h1.jumbotron{
 	text-align: right;
 }
 h3{
@@ -46,10 +50,58 @@ div.container{
 	text-align: right;
 }
 .jumbotron{
-	background-image: url(images/IceCreamCeption.jpg);
+	background-image: url("images/IceCreamCeption.jpg");
 	background-position: 0% 25%;
 	background-size: cover;
 }
-.footer{
-	display: block;
+div.container-header{
+	text-align: center
+}
+div.footer{
+	padding: 25px;
+	text-align: center;
+}
+.container-info{
+	padding: 20px;
+	border: solid;
+	border-color: #0088dd;
+	border-width: 5px;
+	margin: 100px;
+	margin-top: 0px;
+	background-color: #ffffff;
+	border-radius: 25px;
+}
+.header{
+	border: solid;
+	border-color: #0088dd;
+	border-width: 5px;
+	padding: 20px;
+	margin: 100px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	background-color: #ffffff;
+	border-radius: 25px;
+}
+.container-photo{
+	border: solid;
+	border-color: #0088dd;
+	border-width: 5px;
+	padding: 20px;
+	margin: 100px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	background-color: #ffffff;
+	border-radius: 25px;
+	text-align-last: center;
+}
+.container-intro{
+	border: solid;
+	border-color: #0088dd;
+	border-width: 5px;
+	padding: 20px;
+	margin: 100px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	background-color: #ffffff;
+	border-radius: 25px;
 }
