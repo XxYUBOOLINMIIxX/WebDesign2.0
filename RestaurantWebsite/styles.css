@@ -1,0 +1,59 @@
+*{
+	font-family: Arial, Verdana, sans-serif;
+	background-image: url("images/IceCreamCeption");
+	background-color: #fbffba;
+}
+#content{
+	overflow: auto;
+	height: 100%;
+}
+#nav, #feature, #footer, #title{
+	padding: 10px;
+	margin: 10px;
+}
+li{
+	display: list-item;
+	padding: 5px;
+}
+.column1of3, .column2of3, .column3of3{
+	float: left;
+	text-align: left;
+}
+div.column1of3{
+	width: 300px;
+	padding: 5px;
+	margin: 10px;
+	margin-left:225px;
+	border: 2px solid #0088dd;
+}
+div.column2of3{
+	width: 300px;
+	padding: 5px;
+	margin: 10px;
+	border: 2px solid #0088dd;
+}
+div.column3of3{
+	width: 300px;
+	padding: 5px;
+	margin: 10px;
+	border: 2px solid #0088dd;
+}
+h1{
+	text-align: center;
+}
+h3{
+	text-align: center;
+}
+.header{
+	text-align: center;
+}
+#logo{
+	border: solid;
+	border-width: 5px;
+	border-color: #0088dd;
+	border-radius: 25px;
+	padding: 20px;
+	text-align: center;
+	margin: 100px;
+	margin-top: 0px;
+}
